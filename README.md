@@ -26,6 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## lancement backend serveur
+## Lancement du serveur backend
 
 aller dans le dossier "backend" puis lancez la commande "nodemon serve", l'application est lu sur le port `http://localhost:3000/'.
