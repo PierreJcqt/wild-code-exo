@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.new-member-form {
+  margin: 2em 0 4em 0;
+  text-align: center;
+}
+
+.member-item {
+  padding: 0.25em 0;
+}
+
+
+.button {
+
+  margin-left: 50px;
+}
+
+.member-list {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+margin-left: 200px;
+}
+
+

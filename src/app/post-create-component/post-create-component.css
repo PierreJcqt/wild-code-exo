@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p {
+   margin-left: 410px;
+   
+}
+
+.new-member-form {
+  margin: 2em 0 4em 0;
+  text-align: center;
+}
+
+.member-item {
+  padding: 0.25em 0;
+}
+
+
+.button {
+
+  margin-left: 50px;
+}
+
+.champ-input {
+
+  margin-left: 320px;
+
+}
+

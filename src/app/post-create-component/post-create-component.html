@@ -1,0 +1,29 @@
+
+<!-- New member form -->
+<h2>Ajouter un(e) Argonaute</h2>
+    <p>Nom de l&apos;Argonaute</p>
+<form (submit)="onAddPost(postForm)" #postForm="ngForm">
+        <mat-form-field class="champ-input">
+            <input 
+            matInput 
+            name="name"
+            placeholder="Nom"
+            #name="ngModel"
+            ngModel
+            required>
+            <mat-error *ngIf="name.invalid">Veuillez entrer un membre d'équipage</mat-error>
+        </mat-form-field>
+
+        <button 
+        class="button" 
+        mat-raised-button 
+        color="primary" 
+        type="submit"
+        >Ajouter</button>
+</form>
+
+
+
+
+
+
